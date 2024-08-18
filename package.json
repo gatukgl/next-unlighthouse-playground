@@ -1,0 +1,16 @@
+{
+  "name": "hello-unlighthouse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "performance:dt": "unlighthouse --url 'https://perf-playground.gatukgl.com' --debug --desktop",
+    "performance:mb": "unlighthouse --url 'https://perf-playground.gatukgl.com' --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "unlighthouse": "^0.13.2"
+  }
+}
